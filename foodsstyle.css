@@ -1,0 +1,99 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+.main-container {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(asset/photo/restaurant\ 1.jpg);
+  height: 100%;
+}
+.menu_list {
+  padding-top: 50px;
+  background-color: #fff;
+  width: 50%;
+}
+.mb-60 {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  width: 50%;
+  margin: auto;
+}
+.section-title p {
+  font-size: 24px;
+  font-family: Oleo Script;
+  margin-bottom: 0px;
+}
+.section-title h1 {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 2;
+  color: #ff5e18;
+  position: relative;
+  display: inline-block;
+}
+.section-title h1::before {
+  background: #ff5e18;
+  width: 70px;
+  height: 2px;
+  position: absolute;
+  content: "";
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-title h1::after {
+  position: absolute;
+  content: "";
+  background: #fbc531;
+  width: 30px;
+  height: 2px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#myTabContent {
+  margin-top: 50px;
+}
+.menu_tab {
+  width: auto;
+  margin: 0 auto;
+}
+.nav-tabs .nav-item {
+  margin-bottom: -1px;
+}
+.nav-item a {
+  color: #333;
+}
+.menu_tab .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: white;
+  background-color: #ff5e18;
+  border-color: #ff5e18;
+}
+.single_menu_list {
+  font-family: "Arvo", serif;
+  position: relative;
+  margin-bottom: 75px;
+  transition: 0.3s;
+  height: 100px;
+}
+
+.single_menu_list h4 {
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px dashed #c0392b;
+  line-height: 2;
+  text-transform: capitalize;
+}
+
+.single_menu_list h4 span {
+  font-size: 25px;
+  font-weight: 800;
+  float: right;
+  font-style: italic;
+  color: #c0392b;
+}

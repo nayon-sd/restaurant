@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    /* background: rgb(82, 82, 134);  */
+    height: 100%;
+    width: 100%;
+    /* background: url("./asset/photo/restaurant\ 2.jpg")
+    no-repeat center center/cover; */
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url(asset/photo/restaurant\ 1.jpg);
+}
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.title span {
+  border-bottom: 2px solid #fff;
+}
+.contact {
+  text-align: center;
+  margin-top: 30px;
+  color: #fc1;
+  font-size: 40px;
+  /* padding-top: 180px; */
+  padding-top: 110px;
+}
+.contact span {
+  border-bottom: 2px solid #fc1;
+}
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #fc1;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #fc1;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #fc1;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: #ff5e18;
+}
